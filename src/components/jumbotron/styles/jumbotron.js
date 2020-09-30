@@ -51,7 +51,6 @@ export const Item = styled.div`
   padding: 50px 5%;
   color: white;
   overflow: hidden;
-  background-color: black;
 `;
 
 export const Container = styled.div`
