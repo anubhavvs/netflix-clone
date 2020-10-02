@@ -6,7 +6,11 @@ export const Container = styled.div`
 `;
 
 export const Frame = styled.div`
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+
+  @media (max-width: 600px) {
+    margin-bottom: 0px;
+  }
 `;
 
 export const Inner = styled.div`
@@ -15,6 +19,10 @@ export const Inner = styled.div`
   flex-direction: column;
   max-width: 815px;
   margin: auto;
+
+  @media (max-width: 600px) {
+    padding: 50px 5px;
+  }
 `;
 
 export const Title = styled.h1`
@@ -25,17 +33,16 @@ export const Title = styled.h1`
   color: white;
   text-align: center;
   @media (max-width: 600px) {
-    font-size: 35px;
+    font-size: 30px;
   }
 `;
 
 export const Item = styled.div`
   color: white;
   margin-bottom: 10px;
-  max-width: 670px;
   width: 100%;
   &:first-of-type {
-    margin-top: 3em;
+    margin-top: 1em;
   }
 `;
 
