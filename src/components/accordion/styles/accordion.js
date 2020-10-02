@@ -42,7 +42,7 @@ export const Item = styled.div`
   margin-bottom: 10px;
   width: 100%;
   &:first-of-type {
-    margin-top: 1em;
+    margin-top: 3em;
   }
 `;
 
