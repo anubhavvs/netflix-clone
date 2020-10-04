@@ -77,8 +77,8 @@ export default function SignUp() {
                     This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.
                 </Form.TextSmall>
             </Form>
-        <FooterContainer />
         </HeaderContainer>
+        <FooterContainer />
         </>
     )
 }
