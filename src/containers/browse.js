@@ -24,7 +24,7 @@ export function BrowseContainer({ series }) {
         <>
             {loading ? <Loading src={user.photoURL} /> : <Loading.ReleaseBody />}
 
-            <Header src="joker1" dontShowOnSmallViewPort>
+            <Header src="joker1" dontShowOnSmallViewPort opacity="true">
                 <Header.Frame>
                     <Header.Group>
                         <Header.Logo to={ROUTES.HOME} src={logo} alt="Netflix" />
