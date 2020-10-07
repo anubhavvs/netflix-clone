@@ -1,4 +1,19 @@
-## Netflix Clone Website using ReactJs
+# Netflix Clone Website using ReactJs
+
+A Front-End Clone of React Made using ReactJS.
+
+## Preview
+You can see the live website here:
+- [Netlify Deploy](https://anubhavvs-netflix.netlify.app/)
+
+## Built With
+
+- [React](https://reactjs.org/)
+- [React Router](https://reactrouter.com/)
+- [Firebase](https://firebase.google.com/)
+- [Redux](https://redux.js.org/)
+- [Normalize](https://necolas.github.io/normalize.css/)
+- [Fuse.js](https://fusejs.io/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
