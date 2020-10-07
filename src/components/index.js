@@ -7,4 +7,5 @@ export { default as Header } from './header';
 export { default as Jumbotron } from './jumbotron'
 export { default as Loading } from './loading';
 export { default as OptForm } from './opt-form';
+export { default as Player } from './player';
 export { default as Profiles } from './profiles';
