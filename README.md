@@ -1,6 +1,6 @@
 # Netflix Clone Website using ReactJs
 
-A Front-End Clone of React Made using ReactJS.
+A Front-End Clone of Netflix Made using ReactJS.
 
 ## Preview
 You can see the live website here:
