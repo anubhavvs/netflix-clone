@@ -4,7 +4,7 @@ import { Link as ReachRouterLink } from 'react-router-dom';
 export const Background = styled.div`
   display: flex;
   flex-direction: column;
-  background: url(${({ src }) => (src ? `../images/misc/${src}.jpg` : '../images/misc/home-bg.jpg')}) top left / cover
+  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(${({ src }) => (src ? `../images/misc/${src}.jpg` : '../images/misc/home-bg.jpg')}) top left / cover
     no-repeat;
   @media (max-width: 1100px) {
     ${({ dontShowOnSmallViewPort }) => dontShowOnSmallViewPort && `background: none;`}
@@ -56,6 +56,9 @@ export const SearchInput = styled.input`
   padding: ${({ active }) => (active === true ? '0 10px' : '0')};
   opacity: ${({ active }) => (active === true ? '1' : '0')};
   width: ${({ active }) => (active === true ? '200px' : '0px')};
+  &:focus {
+    outline: none;
+  }
 `;
 
 export const Search = styled.div`
@@ -76,7 +79,11 @@ export const SearchIcon = styled.button`
   border: 0;
   img {
     filter: brightness(0) invert(1);
-    width: 16px;
+    width: 20px;
+    height: 20px;
+  }
+  &:focus {
+    outline: none;
   }
 `;
 
@@ -102,8 +109,8 @@ export const Picture = styled.button`
   background: url(${({ src }) => src});
   background-size: contain;
   border: 0;
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
   cursor: pointer;
 `;
 
@@ -112,8 +119,8 @@ export const Dropdown = styled.div`
   position: absolute;
   background-color: black;
   padding: 10px;
-  width: 100px;
-  top: 32px;
+  width: 150px;
+  top: 40px;
   right: 10px;
   ${Group}:last-of-type ${Link} {
     cursor: pointer;
@@ -131,7 +138,7 @@ export const Dropdown = styled.div`
     margin-right: 10px;
   }
   p {
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 0;
     margin-top: 0;
   }
